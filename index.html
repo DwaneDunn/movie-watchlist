@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Movie Watchlist</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="container header">
+          <h1 class="title">Find your film</h1>
+          <a href="watchlist.html" id="watchlist" class="watchlist"
+            >My Watchlist</a
+          >
+        </div>
+      </header>
+      <div class="search-bar container">
+        <form id="search-form" class="search-form">
+          <div class="input-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <!-- SEARCH TEXT INPUT -->
+            <input
+              type="text"
+              name="search"
+              autocomplete="off"
+              placeholder="Search for a movie"
+              id="search-input"
+              class="search-input"
+            />
+          </div>
+
+          <!-- SEARCH BUTTON -->
+          <input
+            type="button"
+            value="Search"
+            id="search-btn"
+            class="search-btn"
+          />
+        </form>
+      </div>
+
+      <!-- DISPLAY RESULTS -->
+      <section id="movies" class="movies container">
+        <img src="/images/movie-icon.png" alt="" class="movie-icon" />
+        <!-- <i class="fa-solid fa-film fa-2xl"></i> -->
+        <p class="muted">Start exploring</p>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

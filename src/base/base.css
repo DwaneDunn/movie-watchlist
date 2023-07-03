@@ -1,0 +1,6 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+
+  --header-fill-clr: 00eE0E; /* Fill on top of header image */
+}

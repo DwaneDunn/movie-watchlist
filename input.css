@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap');
+
+@import '/src/base/base.css'; /* Root Styles */
+@import '/src/base/reset.css'; /* Base Reset Styles */
+@import '/src/utilities/container.css';
+@import '/src/components/header.css';
+@import '/src/components/search.css';
+
+@import 'src/components/movies.css';
+@import 'src/utilities/muted.css';
+
+/* Movies Result Styling */
+
+.card {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  column-gap: 1em;
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 1em;
+}
+
+.main {
+  margin-top: 2em;
+  padding: 1em;
+  width: 90%;
+  margin-inline: auto;
+  margin-bottom: 1em;
+}
+
+.result-top-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  padding: 0 1em;
+}
+
+.result-middle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  margin-bottom: 1em;
+}
+
+.result-bottom-row {
+  padding: 0 1em;
+}
+
+.watchlist-btn {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-films {
+  width: 20%;
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-film-text {
+  margin-left: 10px;
+}
